@@ -1,0 +1,14 @@
+@import "./styles.scss";
+@import "./article.scss";
+
+.quoteBlock {
+    background-color: map-get($article_colors, quote_back);
+    border-left: 4px solid map-get($article_colors, quote_border);
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    overflow: hidden;
+    padding: 0.2em;
+    padding-left: 1em;
+    width: auto;
+}

@@ -1,0 +1,6 @@
+@import "./styles.scss";
+
+.thumbDivider {
+    background-color:map-get($colors, horizon);
+    border: 1px solid map-get($colors, horizon);
+}

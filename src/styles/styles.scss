@@ -1,0 +1,25 @@
+$font-basic: 
+    "游ゴシック Medium",
+    "YuGothic,YuGothicM",
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Kaku Gothic Pro",
+    "メイリオ",
+    "Meiryo",
+    sans-serif;
+
+$colors: (
+    base: white,
+    text: #666666,
+    horizon: #eeeeee,
+);
+
+h1, h2, h3, h4, h5, p, th, td, li, a, a:hover {
+    color: map-get($colors, text);
+    font-family: $font-basic;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,60 @@
+@import "./styles.scss";
+
+$article_colors: (
+    base: map-get($colors, base),
+    horizon: map-get($colors, horizon),
+    link: #6688ff,
+    link_h: #3366ff,
+    text: map-get($colors, text),
+    table_border: #dddddd,
+    table_back_odd: #eeeeee,
+    quote_border: #999999,
+    quote_back: rgba(200,200,200,0.3),
+    code_title_back: #eeeeee,
+);
+
+.article {
+    .createdAt{
+        text-align: right;
+    }
+    
+    h1 {
+        font-size: 2em;
+        width: auto;
+    }
+    
+    h2 {
+        border-bottom: 1px solid map-get($article_colors, horizon);
+        font-size: 1.7em;
+    }
+    
+    h3 {
+        border-bottom: 1px solid map-get($article_colors, horizon);
+        font-size: 1.5em;
+    }
+    
+    h4 {
+        font-size: 1.2em;
+    }
+    
+    a {
+        color: map-get($article_colors, link);
+    }
+    
+    a:hover {
+        color: map-get($article_colors, link_h);
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+     
+    tbody tr:nth-child(odd) {
+        background-color: map-get($article_colors, table_back_odd);
+    }
+     
+    th,td {
+        border: solid 1px map-get($article_colors, table_border);
+        padding: 5px 10px;
+    }
+}

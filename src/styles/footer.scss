@@ -1,0 +1,14 @@
+@import "./styles.scss";
+
+.icon {
+    padding: 0.5em;
+}
+.footer {
+    margin: 2em;
+    text-align: center;
+    width: 100%;
+
+    a:hover {
+        text-decoration:underline;
+    }
+}

@@ -1,0 +1,19 @@
+@import "./styles.scss";
+@import "./article.scss";
+
+.codeBlockWrapper {
+    position: relative;
+}
+.codeBlockTitle {
+    background-color: map-get($article_colors, code_title_back);
+    color: map-get($colors, text);
+    display: inline-block;
+    font-family: $font-basic;
+    left: 1em;
+    padding: 0.2em;
+    padding-bottom: 0em;
+    padding-top: 0em;
+    position: absolute;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

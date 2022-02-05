@@ -1,0 +1,10 @@
+@import "./styles.scss";
+
+body {
+    background-color: map-get($colors, base);
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1000px;
+    padding: 50px;
+    width: 95%;
+}

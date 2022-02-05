@@ -16,7 +16,15 @@
   },
   "dependencies": {
     "gatsby": "^4.6.0",
+    "gatsby-plugin-sass": "^5.6.0",
+    "gatsby-source-microcms": "^2.0.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-markdown": "^8.0.0",
+    "react-syntax-highlighter": "^15.4.5",
+    "remark-gfm": "^3.0.1",
+    "sass": "^1.49.0"
   }
 }
